@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps, computed } from 'vue'
+import { computed, defineProps } from 'vue'
 const props = defineProps({
   href: {
     type: String,
@@ -15,7 +15,7 @@ function getDomain(url) {
 const faviconUrl = computed(() =>
   props.favicon
     ? props.favicon
-    : `http://www.google.com/s2/favicons?domain=${getDomain(props.href)}`,
+    : `http://www.google.com/s2/favicons?domain=${getDomain(props.href)}`
 )
 const styles = computed(() => ({
   background: `url(${faviconUrl.value}) left center no-repeat`,

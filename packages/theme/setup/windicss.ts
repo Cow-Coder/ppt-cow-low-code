@@ -1,7 +1,7 @@
 import { resolve } from 'path'
 import { defineWindiSetup } from '@slidev/types'
-const colors = require('windicss/colors')
-const plugin = require('windicss/plugin')
+import colors from 'windicss/colors'
+import plugin from 'windicss/plugin'
 
 const aspectRatioPlugin = plugin(({ addUtilities }) => {
   const newUtilities = {
@@ -91,11 +91,11 @@ export default defineWindiSetup(() => ({
         title: ['Gilroy', 'Georgia', 'serif'],
         mono: ['Fira Code', 'ui-monospace'],
       },
-    }
+    },
   },
   plugins: [
     aspectRatioPlugin,
-    plugin(function ({ addUtilities, theme, variants }) {
+    plugin(({ addUtilities, theme, variants }) => {
       const newUtilities = {
         '.flip-y': {
           '--tw-scale-y': '-1 !important',
