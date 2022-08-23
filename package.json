@@ -1,31 +1,31 @@
 {
-  "name": "myslidev-test",
   "private": true,
-  "packageManager": "pnpm@7.3.0",
   "scripts": {
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json --max-warnings 0 && pretty-quick --check",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json && pretty-quick",
-    "preinstall": "npx --yes only-allow pnpm",
+    "preinstall": "npx --yes only-allow yarn",
     "prepare": "husky install",
-    "cz": "czg"
+    "dev": "pnpm -C packages/ppt dev"
+  },
+  "dependencies": {
+    "slidev-theme-penguin": "^1.4.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@element-plus/eslint-config": "^0.0.20220803",
-    "cz-git": "^1.3.10",
+    "@iconify-json/logos": "^1.1.14",
+    "@slidev/cli": "^0.35.5",
+    "@slidev/types": "^0.30.3",
     "czg": "^1.3.10",
     "eslint": "^8.21.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "pretty-quick": "^3.1.3",
-    "typescript": "~4.7.4"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-git"
-    }
+    "prism-theme-vars": "^0.2.2",
+    "typescript": "~4.7.4",
+    "vite-svg-loader": "^3.3.0"
   },
   "lint-staged": {
     "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
