@@ -1,0 +1,14 @@
+{
+  "name": "myslidev-test",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prism-theme-vars": "^0.2.4"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.14",
+    "@slidev/cli": "^0.35.5",
+    "vite-svg-loader": "^3.4.0"
+  }
+}
