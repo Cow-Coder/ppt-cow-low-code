@@ -1,6 +1,6 @@
 ---
 layout: text-image
-media: https://tva1.sinaimg.cn/large/008d89Swgy1h5hxaaupdzj30b20af3z6.jpg
+media: https://tva1.sinaimg.cn/large/008d89Swgy1h5j3b7o3xkj30ak0ao0te.jpg
 caption: '物料组件库'
 ---
 
