@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "dev": "cd ppt && slidev slides.md",
     "build": "cd ppt && slidev build slides.md",
-    "export": "cd ppt && slidev export slides.md"
+    "export": "cd ppt && slidev export slides.md --format png"
   },
   "dependencies": {
     "slidev-theme-penguin": "^1.4.1"
@@ -24,6 +24,7 @@
     "eslint-define-config": "^1.6.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
+    "playwright-chromium": "^1.25.1",
     "prettier": "^2.7.1",
     "pretty-quick": "^3.1.3",
     "prism-theme-vars": "^0.2.2",
