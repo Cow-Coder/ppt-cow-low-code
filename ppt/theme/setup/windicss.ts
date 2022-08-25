@@ -30,7 +30,7 @@ export default defineWindiSetup(() => ({
     // custom the default background
     'bg-main':
       'bg-gradient-to-r from-white to-secondary-50 dark:(bg-gradient-to-r from-primary-500 to-primary-600)',
-    'bg-section': 'bg-gradient-to-r from-secondary-400 to-secondary-500 ',
+    'bg-section': 'bg-gradient-to-r from-secondary-100 to-secondary-200 ',
   },
   theme: {
     colors: {
