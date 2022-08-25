@@ -4,7 +4,10 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0 && pretty-quick --check",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.json && pretty-quick",
     "preinstall": "npx --yes only-allow yarn",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev": "cd ppt && slidev slides.md",
+    "build": "cd ppt && slidev build slides.md",
+    "export": "cd ppt && slidev export slides.md"
   },
   "dependencies": {
     "slidev-theme-penguin": "^1.4.1"
