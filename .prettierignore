@@ -1,3 +1,8 @@
 dist
 node_modules
 stats.html
+pnpm-lock.yaml
+components.d.ts
+auto-imports.d.ts
+yarn.lock
+*.md

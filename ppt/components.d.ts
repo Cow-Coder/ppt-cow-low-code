@@ -48,6 +48,7 @@ declare module '@vue/runtime-core' {
     LayoutFooter: typeof import('./theme/components/LayoutFooter.vue')['default']
     LayoutHeader: typeof import('./theme/components/LayoutHeader.vue')['default']
     Link: typeof import('./../node_modules/@slidev/client/builtin/Link.vue')['default']
+    LogosGithubIcon: typeof import('~icons/logos/github-icon')['default']
     LogosTwitter: typeof import('~icons/logos/twitter')['default']
     Mermaid: typeof import('./../node_modules/@slidev/client/builtin/Mermaid.vue')['default']
     Monaco: typeof import('./../node_modules/@slidev/client/builtin/Monaco.vue')['default']
